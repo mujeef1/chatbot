@@ -1,0 +1,68 @@
+What is your name?|I am a chatbot.
+How does the chatbot work?|The chatbot uses Flask for the backend and HTML for the frontend.
+What can you do?|I can answer questions based on the predefined dataset.
+How do I contact support?|For support, please email support@example.com.
+who is kcr?|As of my last knowledge update in January 2022, KCR refers to K. Chandrashekar Rao, the Chief Minister of the Indian state of Telangana.K. Chandrashekar Rao, commonly known as KCR, is the founder and leader of the Telangana Rashtra Samithi (TRS), a regional political party in the state of Telangana. He played a crucial role in the movement for the creation of the separate state of Telangana, which was officially formed in 2014 after the bifurcation of Andhra Pradesh.
+Tell me about yourself.|I am a virtual assistant designed to provide information and answer questions.
+What is your name?|I am a chatbot.
+How does the chatbot work?|The chatbot uses Flask for the backend and HTML for the frontend.
+What can you do?|I can answer questions based on the predefined dataset.
+How do I contact support?|For support, please email support@example.com.
+Tell me about yourself.|I am a virtual assistant designed to provide information and answer questions.
+Can you provide information about your company?|Certainly, our company is focused on [brief description of the company].
+What is the purpose of this chatbot?|The purpose of this chatbot is to assist users by providing information and answering queries.
+How can I use this chatbot effectively?|You can use this chatbot by entering your questions in the input field, and I will provide relevant answers.
+Where are you located?|I exist in the digital realm and don't have a physical location.
+Do you have a mobile app?|No, currently, we don't have a dedicated mobile app. You can access the chatbot through your web browser.
+How do I reset my password?|To reset your password, visit the login page and click on the "Forgot Password" link.
+Can you help me with a technical issue?|Certainly, please describe the technical issue you're facing, and I'll do my best to assist you.
+Are there any upcoming events?|To find information about upcoming events, check our website's events page or contact our support team.
+How can I subscribe to your newsletter?|You can subscribe to our newsletter on the website by providing your email address in the designated signup form.
+What are your business hours?|The chatbot is available 24/7. For specific business hours, please check our website or contact our support.
+Tell me a joke.|Why don't scientists trust atoms? Because they make up everything!
+Can you recommend a good book?|Certainly! I recommend [book title] by [author] for an enjoyable read.
+How do I place an order?|To place an order, visit our online store, browse products, and follow the checkout process.
+What payment methods do you accept?|We accept [list of accepted payment methods], including credit cards and digital wallets.
+Are there any discounts or promotions?|Check our website or subscribe to our newsletter for information on current discounts and promotions.
+What is the return policy?|Our return policy is outlined on the website's "Returns" page. Please review it for detailed information.
+How do I track my order?|You can track your order by logging into your account or using the order tracking feature on our website.
+Can you provide information about your products/services?|Certainly, we offer [brief description of products/services]. For more details, visit our website.
+What is the latest news?|Stay updated on the latest news by checking our website's news section or subscribing to our newsletter.
+How do I unsubscribe from emails?|To unsubscribe from emails, click the "unsubscribe" link at the bottom of any of our emails.
+Tell me about your team.|Our team is composed of [brief description of team members and their roles].
+What are your core values?|[Brief description of core values] guide our company's actions and decisions.
+How can I partner with your company?|To explore partnership opportunities, please contact our business development team at partnerships@example.com.
+What is your social media presence?|Follow us on [list of social media platforms] to stay connected and receive updates.
+How do I report a bug?|If you encounter a bug, please report it to our support team via email at support@example.com.
+Can I change my account settings?|Yes, you can change your account settings by logging into your account and navigating to the "Settings" section.
+How do I delete my account?|To delete your account, contact our support team, and they will assist you in the account deletion process.
+What is your privacy policy?|Our privacy policy is available on our website's "Privacy Policy" page. Please review it for detailed information.
+How do I provide feedback?|We welcome your feedback! You can provide feedback through our website's contact form or by emailing feedback@example.com.
+Are there job opportunities available?|Check our careers page on the website for current job openings and application details.
+Can I change my username?|In most cases, you can change your username in the account settings. Check the settings page for this option.
+How do I download invoices?|You can download invoices by logging into your account and navigating to the "Billing" or "Invoices" section.
+What languages do you support?|The chatbot primarily supports English, but we are working on expanding language support in the future.
+Can I use the chatbot anonymously?|Yes, you can use the chatbot anonymously without providing personal information.
+How secure is my data?|We take data security seriously. Please review our privacy policy for details on how we protect your data.
+How do I change my email address?|To change your email address, go to the account settings and update the email field.
+Can I order products internationally?|Yes, we offer international shipping. Review the shipping information during the checkout process.
+How do I apply for a refund?|To apply for a refund, follow the instructions outlined in our refund policy on the website.
+Tell me a fun fact.|Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.
+Can I request a feature for your service?|Absolutely! We welcome feature requests. Please submit your suggestions through our website's contact form.
+What inspired the creation of this chatbot?|The chatbot was created to provide a convenient and efficient way for users to get information and assistance.
+How can I stay informed about product updates?|Subscribe to our newsletter and follow us on social media for the latest product updates and announcements.
+How do I join your loyalty program?|Details about our loyalty program can be found on our website. Visit the "Loyalty Program" page for information.
+Is there a community forum for users?|Currently, we do not have a community forum. Stay connected through our social media channels for updates.
+Can I integrate your service with other apps?|Integration options are available for certain applications. Contact our support team for specific integration inquiries.
+how many roll are there in ece-c?|Roll no are starting from 21N31A04D3 TO 21N31A04K8,lateral entry students from LE-11 TO LE-15.
+MRCET?|BRAND OF EXCELLENCE,EAMCET Code:MLRD,college code:Mrcet.
+UG coarses offered?|Aerospace Engineering (AE),Computer Science and Engineering (CSE),Computer Science and Engineering (Artificial Intelligence and Machine Learning) (CSE-AI&ML),Computer Science and Engineering (Cyber Security) (CSE-CS),Computer Science and Engineering (Data Science) (CSE-DS),Computer Science and Engineering (Internet of Things) (CSE-IOT),Electronics and Communication Engineering (ECE),Electrical and Electronics Engineering (EEE),Information Technology (IT),Mechanical Engineering (MECH).
+PG coarses offered?|Aerospace Engineering (AE),Computer Science and Engineering (CSE),Electronics and Communication Engineering (ECE),Mechanical Engineering (MECH).
+about placements and training?|MRCET is an undisputed leader in creating campus placements and these are growing year over year at a rapid place which is contributing to the brand image of the institution. The T&P Cell works around the clock to ensure the students of the college get placed in reputed companies. MRCET attaches greater importance to the students in overall development, particularly in communication skills, problem solving capabilities and value added programs. This kind of holistic development ensures that the student is transformed into a perfect fit in today’s competitive job market.The college has MOU’s with top companies like Tech Mahindra, NTT Data, ZenSar etc, which provides recruitment opportunities to our students in their companies.Our well-equipped campus placement training team is headed by Prof. K. Kailasa Rao, Dean of placements, along with a team of eminent professors with a proven track record and professionals who have made a mark in the industry. We introduce our students to the concepts of corporate culture and a sense of influential patronage. The dean of placements streamlines the Campus Recruitment and Training (CRT) activities creating a positive impact on the employment process and ensures that the potential candidates get absorbed into the companies of their choice.
+about college hostel?|Malla Reddy college of Engineering & Technology (MRCET) hostel is a home away from home for the students. Separate Hostel Buildings for Girls & Boys are available. Malla Reddy Hostels have all the required facilities for the students to have a comfortable stay and family atmosphere. It aims at ensuring harmonious, friendly living among students of various places inculcating self discipline. The hostel serves as a training ground for a responsible, successful and useful life through development of the body, mind and soul. It is a walled campus hostel with a single entry and 24-hour security.Healthy and Hygienic dining facility,Purified Water Plant,24X7 Medical Facility,24X7 Ambulance Service,24 X 7 Security,CC TV Surveillance,24X7 Power Backup,Solar Hot Water,In House Wardens,Indoor & Outdoor Games,TV Room,Wi-Fi Enabled Campus,Clean and Green Surroundings,Waiting lounge area,Housekeeping services are provided
+about mallareddy?|Shri Malla Reddy, the most humble dynamic and charismatic founder chairman is a visionary who brought about a revolution in the field of education. He is the avant-garde (pioneer) in creating numerous avenues which made professional and technical education accessible to young aspirants. Under his esteemed leadership, the campus has grown by leaps and bounds to become a major learning center with 14 institutes offering almost all Engineering, Management, Computers and Pharmacy courses. Two hospitals namely Narayana Hrudayalaya Malla Reddy cardiology hospital are functioning in Malla Reddy Health city. His life has rekindled many lives by not only igniting their dreams but also by accomplishing them. He strongly believes that only education can bring across a positive change in the society.
+about vsk reddy?|Dr. V.S.K. Reddy, Advisor, Malla Reddy College of Engineering & Technology has an experience of more than 19 years in Teaching and Industry put together. He is alumni of IIT Kharagpur, he obtained Ph.D in the area of Multi-media Signal Processing and Communication Protocols. He is versatile in multidisciplinary specializations in Electronics & Communications and Computer Science Engineering. His laurels include more than 45 Publications in the National and International reputed Conferences and Journals. He is fellow of IETE, Life Member of ISTE and Member of IEEE. He was awarded as “Best Teacher” in three consecutive Academic years with citation and cash award. He is the recipient of “India Jewel Award” for outstanding contribution in the research in the field of Engineering and Technology.
+about Principal?|Dr. S Srinivasa Rao, completed his B.tech in Electronics & Communication Engineering from one of the top engineering colleges in india, Madras Institute of Technology, Chennai. He did his M.Tech in Digital Systems & Computer Electronics from JNTU College of Engineering, Hyderabad. He did his PhD from JNTU University, Hyderabad in Wireless Communications. He has 25 years of teaching experience in various reputed engineering colleges in AP & Telangana. He has published more than 20 research papers in international journals and presented 30 research papers in international/ national conferences/ seminars/ symposiums. He conducted various workshops/ seminars/ conferences/ fdps.
+about ece department?|The Department of ECE was established in 2004 and permanently recognized by JNTU Hyderabad.
+about cse?|The Department of Computer Science and Engineering (CSE) is established in the year 2004. The department offers B. Tech (Computer Science and Engineering) with an intake of 420 and M. Tech (Computer Science and Engineering) with an intake of 30.
+ece hod?|Dr.K.Mallikarjuna Lingam, completed his Graduation (IETE) in Electronics & Telecommunication Engineering from one of the leading Professional Society in india, Electronics & Telecommunication Engineers, New Delhi. He did his M.tech in VLSI Design from Satyabhama University, Chennai. He did his Ph.D from Lincoln University College, Malaysia. He has 13 years of teaching experience in MRCET CAMPUS. He has published more than 10 research papers in international journals and presented 12 research papers in international/national conferences/seminars/symposiums. He conducted various workshops/seminars/conferences/FDPs.

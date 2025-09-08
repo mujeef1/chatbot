@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRCET-CHAT-BOT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Your existing styles remain unchanged */
+
+        /* Add the following style for the Chatbot Button at the top right corner */
+        #openChatBtn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 24px;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            nav a:hover {
+            background-color: #f7e70b;
+        }
+        }
+
+        #openChatBtn i {
+            margin-right: 8px;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            background-color: orange;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #f7e70b;
+        }
+
+        .active {
+           ;
+        }
+
+        .chat-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            display: none; /* Initially hide the chat container */
+        }
+
+        .chatbox {
+            margin-bottom: 20px;
+            max-height: 300px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column; /* Align messages vertically */
+            gap: 10px; /* Add some spacing between messages */
+        }
+
+        .user-input {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #textInput {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        #buttonInput {
+            padding: 10px;
+            background-color: rgb(20, 165, 222);
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+
+        .message {
+            font-size: 16px;
+            margin: 10px 0;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        footer {
+            background-color: orange;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+
+        .user-message {
+            align-self: flex-end; /* User messages on the right */
+            background-color: #007bff; /* User message background color */
+            color: #fff; /* User message text color */
+        }
+
+        .bot-message {
+            align-self: flex-start; /* Bot messages on the left */
+            background-color: #f1f1f1; /* Bot message background color */
+            color: #1c1b1b; /* Bot message text color */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <container>
+            <img width="1500" src="https://mrcet.com/images/about-video-bg.jpg" alt="College Photo">
+            <h1>MALLAREDDY COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+        </container>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <container>
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Programs</a>
+            <a href="#">Admissions</a>
+            <a href="#">Contact</a>
+        </container>
+    </nav>
+
+    <!-- Chatbot Button at the top right corner -->
+    <button id="openChatBtn" onclick="toggleChat()">
+        <i class="fas fa-comment"></i> Chat
+    </button>
+
+    <div class="chat-container" id="chatContainer">
+        <h1>College Chat</h1>
+        <div class="chatbox" id="chatbox"></div>
+        <div class="user-input" id="userInput">
+            <input id="textInput" type="text" placeholder="Type...">
+            <button id="buttonInput" onclick="getBotResponse()">Send</button>
+        </div>
+    </div>
+
+    <main>
+        <container>
+            <!-- Welcome Section -->
+            <section>
+                <h2>Welcome to MRCET</h2>
+               
+            </section>
+
+            <!-- About Section -->
+            <section class="about-container">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>Malla Reddy College of Engineering & Technology (MRCET) is a constituent College of Malla Reddy Group of Institutions (MRGI) established in 2004.<br>
+
+
+                        The College offers Engineering courses (B.Tech.) in AE, CSE, CSE(AI&ML), CSE(CS), CSE(IOT), CSE(DS), AI&ML, AI&DS, ECE, EEE, IT, MECH disciplines and Post Graduate (M.Tech.) courses in ECE, CSE, MECH and AE specializations in addition to MBA programmes. The College campus with its aboriculture and horticulture is situated away from the hustle and bustle of the city provides a serene and tranquil atmosphere, which is conducive to both teaching and learning processes.</p>
+                    <h1>EAMCET / ICET / PGCET Code: MLRD</h1>
+                    <img height = 100 src="https://mrcet.com/images/autologo.png" alt="Auto Logo">
+                    <img height = 100 src="https://mrcet.com/images/NBA%20Logo.png" alt="NBA Logo">
+                    <img height = 100 src="https://mrcet.com/images/AGradelogo.gif" alt="AGrade Logo">
+                    <img height = 100 src="https://mrcet.com/images/ISOlogo.gif" alt="ISO Logo">
+                </div>
+                <div class="about-image">
+                    <img src="https://mrcet.com/images/MALLA_REDDY_MLA.jpg" alt="MALLAREDDY" align = "right">
+                </div>
+            </section>
+
+            <!-- Programs Section -->
+            <section>
+                
+                <div class="program-card">
+                    <h3>Approvals:</h3>
+                    <ul>
+                        <li>Autonomous Institution, UGC, Govt.of INDIA.</li>
+                        <li>Approved by AICTE, Govt. of India, New Delhi.</li>
+                        <li>Permanently Affiliated to JNTUH, Hyderabad.</li>
+                        <li>Accredited by NBA, New Delhi, India.</li>
+                        <li>Accredited by NAAC with A-GRADE, UGC, New Delhi.</li>
+                        <li>ISO 9001:2015 Certified Institution.</li>
+                        <li>Approved by Govt. of Telangana, India.</li>
+                        <li>UGC 2f & 12(B) recognised institution, UGC New Delhi</li>
+                        
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <h3>Special Achievements:</h3>
+                    <li>Autonomous Institution, UGC, Govt.of INDIA.
+                    </li>
+                    <li>Accredited by NBA (Tier-1), AICTE, New Delhi</li>
+                    <li>IBM Centre of Excellence”</li>
+                    <li>Accredited by NAAC-A Grade, UGC, Govt. of India.</li>
+                    <li>SO 9001:2015 Certified Institution.</li>
+                    <li>2(f) & 12(B) Recognition, UGC, Govt. of India.</li>
+                    <li>NSS Unit recognized by JNTUH, Hyderabad.</li>
+                    <li>Research Centre Status, JNTUH, Hyderabad</li>
+                    <li>MoU with NRDC, Govt. of India.</li>
+                    <li>AICTE-MHRD Institution Innovation Council, Ministry of HRD, Govt. of India.
+                    </li>
+                    <li>Industry Institute Partnership Cell (IIPC).
+                    </li>
+                    <li>Recognition of Scientific Industrial Research Organizations (SIROs) by Govt. of India.
+                    </li>
+                </div>
+                <!-- Add more program cards as needed -->
+            </section>
+
+            <!-- Admission Section -->
+            <section class="admission-container">
+                <div class="admission-text">
+                  
+                  
+                </div>
+                <div class="admission-image">
+                   
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact-container">
+                <div class="contact-text">
+                    <h2>Contact Us</h2>
+                    <p>7207034237</p> 
+                      <p>mrcet2004@gmail.com</p>
+                </div>
+                <div class="contact-image">
+                    
+                </div>
+            </section>
+
+            <!-- Chatbot Container -->
+            <div class="chat-container" style="display: none;" id="chatContainer">
+                <h1>College Chat</h1>
+                <div class="chatbox" id="chatbox"></div>
+                <div class="user-input" id="userInput">
+                    <input id="textInput" type="text" placeholder="Type...">
+                    <button id="buttonInput" onclick="getBotResponse()">Send</button>
+                </div>
+            </div>
+        </container>
+    </main>
+    <!-- Your existing HTML content -->
+    <footer>
+        <p>&copy; MRCET. BRAND OF EXCELLENCE IN COLLEGE PLACEMENTS.</p>
+</footer>
+    <!-- Chatbot Script -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        // Function to toggle chat visibility
+        function toggleChat() {
+            $("#chatContainer").toggle();
+        }
+
+        // Function to handle user input and update chatbox
+        function getBotResponse() {
+            var user_input = document.getElementById('textInput').value;
+            var chatBox = document.getElementById('chatbox');
+
+            // Display user message in the chat box on the right
+            var userMessage = document.createElement('p');
+            userMessage.className = 'message user-message';
+            userMessage.textContent = 'You: ' + user_input;
+            chatBox.appendChild(userMessage);
+
+            // Send user input to the server using AJAX
+            $.ajax({
+                type: 'POST',
+                url: '/chatbot',
+                data: { user_input: user_input },
+                success: function (response) {
+                    // Display bot's response in the chat box on the left
+                    var botMessage = document.createElement('p');
+                    botMessage.className = 'message bot-message';
+                    botMessage.textContent = 'Chatbot: ' + response;
+                    chatBox.appendChild(botMessage);
+
+                    // Scroll to the bottom of the chat box to show the latest messages
+                    chatBox.scrollTop = chatBox.scrollHeight;
+
+                    // Clear the input field
+                    document.getElementById('textInput').value = '';
+                },
+                error: function (error) {
+                    console.error('Error sending user input:', error);
+                }
+            });
+        }
+
+        // Pressing Enter key triggers the 'Send' button click
+        $("#textInput").keypress(function (e) {
+            if (e.which === 13) {
+                getBotResponse();
+            }
+        });
+    </script>
+</body>
+</html>
